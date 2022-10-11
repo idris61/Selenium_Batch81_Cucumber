@@ -1,0 +1,30 @@
+
+            ÖNCEKİ DERSTEN AKLIMIZDA KALANLAR
+
+ 1- Cucumber : Behaviour Driven Development (Kullanıcı Tabanlı Programlama) bir test case yazılırken takip ettiğimiz
+ kullanıcı adımlarının herbirini Java kodlarıyla method haline getirip kullanabiliyoruz.
+
+ 2- Yazdığımız satırın bir method call olduğunu Selenium bastaki Gherkin kelimelerinden anlar.
+ Given, When, Then, And kelimeleri test case'i okuyanlar için test adımlarımızı anlatmak adına önemlidir. Bu kelimelerin
+ Selenium açısından hiç bir farkı yoktur, tüm kelimeler birbirinin yerine kullanılabilir.
+
+ 3- Bir test case'i yazmaya feature dosyasından başarız. Feature dosyaları framework'ümüzde non-java bölümünde
+ (Test kalsörünün altında oluşturduğumuz resources/feature klasöründe) bulunur. Featue dosya isimleri genellikle
+ TEST CASE ismi ile aynı olur. Feature dosyalarının ismi önemli değildir ama uzantısı mutlaka .featue olmalıdır.
+
+ 4- Feature dosyasına test case'in adımlarını yazdıktan sonra java kodu daha önceden yazılmamış olan adımlar highlighted
+ olur. Eğer test case'mizde böyle bir step varsa öncelikle onun java kodlarını oluşturmalıyız.
+
+ 5- Eksik adımları tekrar tekrar üstüne gelip oluşturabiliriz veya testi çalıştırdığımızda Selenium ilk adımdan
+ başlayarak test case'in adımlarını çalıştırır, java kodları olmayan ilk adımda çalışma durur, Selenium bize eksik
+ adımlara ait methodları verir.
+
+ 6- Testlerimiz çalıştırmadan sadece eksik adımları bize vermesini istersek, testimizi Runner class'dan
+ dryRun = true olarak çalıştırabiliriz.
+
+
+
+     #Given :verildiğinde demek,
+     #When : --zaman ,given dan sonra yazılır.
+     #Then : genelde aseertion yapıldıgında kullanılır.
+     #And :tekrarlayan adımlarda kullanılır
