@@ -10,9 +10,9 @@ import org.junit.runner.RunWith;
 @RunWith(Cucumber.class)
 @CucumberOptions(
         features = "src/test/resources/features", // feature dosyalarının yolunu string yazarız.
-        glue = "stepDefinitions", // java kodlarını stepDefinitions dan alacak
+        glue = "PracticeAmazon", // java kodlarını stepDefinitions dan alacak
         tags ="@US007",     // iki tag'ı aynı anda çalıştırmak isterseniz "@gp1 or @gp2"
-        dryRun = false
+        dryRun = true
 )
 
 public class Runner {
