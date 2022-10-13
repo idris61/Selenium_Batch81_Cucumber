@@ -1,6 +1,10 @@
+C:\Users\idris\IdeaProjects\Selenium_Bathc81_Cucumber\src\test\java\pages\PracticeTestPage.java
 C:\Users\idris\IdeaProjects\Selenium_Bathc81_Cucumber\src\test\java\stepDefinitions\HepsiBuradaStepDefinition.java
+C:\Users\idris\IdeaProjects\Selenium_Bathc81_Cucumber\src\test\java\stepDefinitions\PracticeTestPaeStepDefinition.java
+C:\Users\idris\IdeaProjects\Selenium_Bathc81_Cucumber\src\test\java\stepDefinitions\Hooks.java
 C:\Users\idris\IdeaProjects\Selenium_Bathc81_Cucumber\src\test\java\utilities\ConfigReader.java
 C:\Users\idris\IdeaProjects\Selenium_Bathc81_Cucumber\src\test\java\utilities\Driver.java
+C:\Users\idris\IdeaProjects\Selenium_Bathc81_Cucumber\src\test\java\pages\GuruPage.java
 C:\Users\idris\IdeaProjects\Selenium_Bathc81_Cucumber\src\test\java\stepDefinitions\PracticeAmazonStepDef.java
 C:\Users\idris\IdeaProjects\Selenium_Bathc81_Cucumber\src\test\java\stepDefinitions\Practice_TC_07StepDefination.java
 C:\Users\idris\IdeaProjects\Selenium_Bathc81_Cucumber\src\test\java\stepDefinitions\BrcStepDefination.java
@@ -8,6 +12,7 @@ C:\Users\idris\IdeaProjects\Selenium_Bathc81_Cucumber\src\test\java\pages\Amazon
 C:\Users\idris\IdeaProjects\Selenium_Bathc81_Cucumber\src\test\java\pages\PracticeAmazonPage.java
 C:\Users\idris\IdeaProjects\Selenium_Bathc81_Cucumber\src\test\java\runners\Runner.java
 C:\Users\idris\IdeaProjects\Selenium_Bathc81_Cucumber\src\test\java\utilities\ReusableMethods.java
+C:\Users\idris\IdeaProjects\Selenium_Bathc81_Cucumber\src\test\java\stepDefinitions\GuruStepDefinition.java
 C:\Users\idris\IdeaProjects\Selenium_Bathc81_Cucumber\src\test\java\pages\BrcPage.java
 C:\Users\idris\IdeaProjects\Selenium_Bathc81_Cucumber\src\test\java\stepDefinitions\AmazonStepDefinition.java
 C:\Users\idris\IdeaProjects\Selenium_Bathc81_Cucumber\src\test\java\pages\PracticeTC07Page.java

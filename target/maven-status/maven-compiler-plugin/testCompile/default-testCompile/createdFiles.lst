@@ -1,5 +1,6 @@
 stepDefinitions\AmazonStepDefinition.class
 utilities\ReusableMethods$1.class
+pages\GuruPage.class
 pages\PracticeAmazonPage.class
 pages\BrcPage.class
 stepDefinitions\HepsiBuradaStepDefinition.class
@@ -8,7 +9,11 @@ utilities\ReusableMethods.class
 pages\AmazonPage.class
 stepDefinitions\BrcStepDefination.class
 pages\PracticeTC07Page.class
+stepDefinitions\PracticeTestPaeStepDefinition.class
 runners\Runner.class
 utilities\Driver.class
+stepDefinitions\Hooks.class
 stepDefinitions\Practice_TC_07StepDefination.class
+pages\PracticeTestPage.class
 utilities\ConfigReader.class
+stepDefinitions\GuruStepDefinition.class

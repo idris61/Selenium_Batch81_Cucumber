@@ -9,10 +9,11 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
+        plugin={"html:target\\cucumber-reports.html"}, // sadece runer dan çalıştırdığımızda bu plugin raporu verir
         features = "src/test/resources/features", // feature dosyalarının yolunu string yazarız.
-        glue = "PracticeAmazon", // java kodlarını stepDefinitions dan alacak
-        tags ="@US007",     // iki tag'ı aynı anda çalıştırmak isterseniz "@gp1 or @gp2"
-        dryRun = true
+        glue = "stepDefinitions", // java kodlarını stepDefinitions dan alacak
+        tags ="@gp2",     // iki tag'ı aynı anda çalıştırmak isterseniz "@gp1 or @gp2"
+        dryRun = false
 )
 
 public class Runner {
